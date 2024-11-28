@@ -1,0 +1,126 @@
+/* Selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #F7F9FA;
+    z-index: 1;
+    padding: 0 10px;
+}
+
+header nav {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img.logo {
+    padding: 18px 10px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 26px 10px;
+    transition: color 0.3s;
+}
+
+header li a:hover {
+    color: #5E5D6E;
+}
+
+/* Parallax */
+.parallax {
+    background-image: url("https://media.istockphoto.com/id/455011625/es/foto/panorama-de-las-monta%C3%B1as-de-invierno-de-niebla.jpg?s=2048x2048&w=is&k=20&c=Z-tLTAIAzfIGxrBMrAeKeU2ZzcNk_tNQO9-lvaOIrVw=");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Call to Action */
+.call-to-action {
+    max-width: 700px;
+    margin: 150px auto;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.call-to-action h2, .call-to-action p, .call-to-action button {
+    margin-bottom: 20px;
+}
+
+.call-to-action .big {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+button {
+    padding: 15px 40px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background 0.5s linear;
+}
+
+button:hover {
+    background-color: #4A4959;
+}
+
+/* Info Box */
+.info-box {
+    background-color: #1C1D22;
+    color: white;
+    text-align: center;
+    padding: 110px 0;
+}
+
+.info-box h2 {
+    margin-bottom: 30px;
+}
+
+#flex-p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#flex-p p {
+    max-width: 300px;
+    padding: 30px;
+}
+
+/* WhatsApp Button */
+#btn-fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 3em;
+    color: green;
+    text-decoration: none;
+}
